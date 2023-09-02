@@ -1,0 +1,39 @@
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+#search-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#search-query {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imgR {
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 9px;
+}

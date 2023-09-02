@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Library Search</title>
+</head>
+<body>
+    <h1>Open Library Search</h1>
+    <form id="search-form" (keyup)="test($event)">
+        <!-- <label for="search-query">Search for Books:</label> -->
+        <input type="text" id="search-query" name="q" placeholder="Enter your query">
+    </form>
+    <div *ngFor="let result of array">
+        <!-- <p>{{result[1]}}</p> -->
+        <img src="https://covers.openlibrary.org/b/olid/{{result[0]}}-M.jpg" alt="" class="imgR">
+    </div>
+</body>
+</html>
